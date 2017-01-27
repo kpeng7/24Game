@@ -57,7 +57,7 @@
         android:layout_toRightOf="@+id/card3"
         android:layout_marginLeft="50dp"
         android:background="@null"
-        android:onClick="card4clicked"/>
+        android:onClick="card4clicked" />
     />
     <Button
         android:layout_width="40dp"
@@ -69,7 +69,7 @@
         android:layout_below="@+id/card3"
         android:layout_marginLeft="65dp"
         android:layout_marginRight="20dp"
-        />
+        android:onClick="plusclicked"/>
 
     <Button
         android:layout_width="40dp"
@@ -81,7 +81,7 @@
         android:layout_alignTop="@+id/plus"
         android:layout_toRightOf="@+id/plus"
         android:layout_marginRight="20dp"
-        />
+        android:onClick="minusclicked"/>
 
     <Button
         android:layout_width="40dp"
@@ -104,5 +104,15 @@
         android:layout_alignTop="@+id/multiply"
         android:layout_toRightOf="@+id/multiply"
         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/winmessage"
+        android:textSize="100dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/plus"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

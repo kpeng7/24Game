@@ -65,15 +65,56 @@ public class MainActivity extends AppCompatActivity {
     public void card1clicked(View view) {
         ImageButton buttonclicked = (ImageButton) findViewById(R.id.card1);
         int num = buttonclicked.get;
-        numholder.add(num);
-        clicked();
+        numclicked(num);
     }
 
-    public void clicked() {
+    public void card2clicked(View view) {
+        ImageButton buttonclicked = (ImageButton) findViewById(R.id.card2);
+        int num = buttonclicked.get;
+        numclicked(num);
+    }
+
+    public void card3clicked(View view) {
+        ImageButton buttonclicked = (ImageButton) findViewById(R.id.card3);
+        int num = buttonclicked.get;
+        numclicked(num);
+    }
+
+    public void card4clicked(View view) {
+        ImageButton buttonclicked = (ImageButton) findViewById(R.id.card4);
+        int num = buttonclicked.get;
+        numclicked(num);
+    }
+
+    public void plusclicked(View view) {
+        Button buttonclicked = (Button) findViewById(R.id.plus);
+        String op = "+";
+        opclicked(op);
+    }
+
+    public void minusclicked(View view) {
+        Button buttonclicked = (Button) findViewById(R.id.minus);
+        String op = "-";
+        opclicked(op);
+    }
+
+    public void numclicked(int num) {
+        numholder.add(num);
         int ans = calculate();
         if (ans == 24) {
-
+            TextView winning = (TextView) findViewById(R.id.winmessage);
+            winning.setText("You Won!");
         }
+    }
+
+    public void opclicked(String op) {
+        mathholder.add(op);
+        int ans = calculate();
+        if (ans == 24) {
+            TextView winning = (TextView) findViewById(R.id.winmessage);
+            winning.setText("You Won!");
+        }
+
     }
 
     public int calculate() {
