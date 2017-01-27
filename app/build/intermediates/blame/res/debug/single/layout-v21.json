@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/kevinpeng/Documents/24Game/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/kevinpeng/Documents/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_action.xml"
+    },
+    {
         "merged": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
         "source": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_action_tombstone.xml"
     },
@@ -10,6 +14,14 @@
     {
         "merged": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
         "source": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/kevinpeng/Documents/24Game/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/kevinpeng/Documents/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/kevinpeng/Documents/24Game/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/kevinpeng/Documents/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/JackYe/AndroidStudioProjects/24Game/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
@@ -30,5 +42,9 @@
     {
         "merged": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
         "source": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/kevinpeng/Documents/24Game/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/kevinpeng/Documents/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_template_custom_big.xml"
     }
 ]

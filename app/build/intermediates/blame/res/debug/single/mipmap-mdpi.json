@@ -6,5 +6,9 @@
     {
         "merged": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
         "source": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kevinpeng/Documents/24Game/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/kevinpeng/Documents/24Game/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     }
 ]

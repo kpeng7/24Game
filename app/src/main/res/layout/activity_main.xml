@@ -65,6 +65,44 @@
         android:textStyle="bold"
         android:textSize="20dp"
         android:text="+"
+        android:id="@+id/plus"
+        android:layout_below="@+id/card3"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="-"
+        android:id="@+id/minus"
+        android:layout_alignTop="@+id/plus"
+        android:layout_toRightOf="@+id/plus"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="*"
+        android:id="@+id/multiply"
+        android:layout_alignTop="@+id/minus"
+        android:layout_toRightOf="@+id/minus"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="/"
+        android:layout_alignTop="@+id/multiply"
+        android:layout_toRightOf="@+id/multiply"
         />
 
 </RelativeLayout>

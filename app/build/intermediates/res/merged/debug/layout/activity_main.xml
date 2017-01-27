@@ -24,6 +24,7 @@
         android:layout_marginLeft="50dp"
         android:layout_below="@+id/text"
         android:background="@null"
+        android:onClick="card1clicked"
         />
 
     <ImageButton
@@ -35,7 +36,8 @@
         android:layout_alignTop="@+id/card1"
         android:layout_toRightOf="@+id/card1"
         android:layout_marginLeft="50dp"
-        android:background="@null"/>
+        android:background="@null"
+        android:onClick="card2clicked"/>
 
     <ImageButton
         android:layout_width="100dp"
@@ -44,7 +46,8 @@
         android:layout_marginLeft="50dp"
         android:layout_below="@+id/card1"
         android:layout_marginTop="30dp"
-        android:background="@null"/>
+        android:background="@null"
+        android:onClick="card3clicked"/>
 
     <ImageButton
         android:layout_width="100dp"
@@ -53,7 +56,8 @@
         android:layout_alignTop="@+id/card3"
         android:layout_toRightOf="@+id/card3"
         android:layout_marginLeft="50dp"
-        android:background="@null"/>
+        android:background="@null"
+        android:onClick="card4clicked"/>
     />
     <Button
         android:layout_width="40dp"

@@ -32,11 +32,34 @@ public class MainActivity extends AppCompatActivity {
 
     public PriorityQueue<Integer> numholder = new PriorityQueue<>();
     public PriorityQueue<String> mathholder = new PriorityQueue<>();
+    private String[] cards = new String[52];
+
+    private void addAllCards() {
+        String str = "";
+        for (int i = 0; i < 52; i++) {
+            switch(i % 13) {
+                case 0: str += "ace_of_";
+                case 1: str += "two_of_";
+                case 2: str += "three_of_";
+                case 3: str += "four_of_";
+                case 4: str += "five_of_";
+                case 5: str += "six_of_";
+                case 6: str += "seven_of_";
+                case 7: str += "eight_of_";
+                case 8: str += "nine_of_";
+                case 9: str += "ten_of_";
+                case 10: str += "jack_of_";
+                case 11: str += "queen_of_";
+                case 12:
+            }
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     public void card1clicked(View view) {
