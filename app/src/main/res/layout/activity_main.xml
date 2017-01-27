@@ -108,11 +108,35 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="sssss"
         android:id="@+id/winmessage"
         android:textSize="100dp"
-        android:layout_marginTop="18dp"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/card3"
+        android:layout_alignStart="@+id/card3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:onClick="clear"
+        android:textSize="40dp"
+        android:id="@+id/button"
         android:layout_below="@+id/plus"
-        android:layout_centerHorizontal="true" />
+        android:layout_toLeftOf="@+id/card4"
+        android:layout_toStartOf="@+id/card4"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Give Up"
+        android:textSize="40dp"
+        android:onClick="reset"
+        android:layout_below="@+id/multiply"
+        android:layout_alignRight="@+id/winmessage"
+        android:layout_alignEnd="@+id/winmessage"
+        android:id="@+id/button2" />
 
 </RelativeLayout>

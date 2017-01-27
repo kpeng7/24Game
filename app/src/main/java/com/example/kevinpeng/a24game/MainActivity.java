@@ -64,24 +64,28 @@ public class MainActivity extends AppCompatActivity {
 
     public void card1clicked(View view) {
         ImageButton buttonclicked = (ImageButton) findViewById(R.id.card1);
+        buttonclicked.setEnabled(false);
         int num = buttonclicked.get;
         numclicked(num);
     }
 
     public void card2clicked(View view) {
         ImageButton buttonclicked = (ImageButton) findViewById(R.id.card2);
+        buttonclicked.setEnabled(false);
         int num = buttonclicked.get;
         numclicked(num);
     }
 
     public void card3clicked(View view) {
         ImageButton buttonclicked = (ImageButton) findViewById(R.id.card3);
+        buttonclicked.setEnabled(false);
         int num = buttonclicked.get;
         numclicked(num);
     }
 
     public void card4clicked(View view) {
         ImageButton buttonclicked = (ImageButton) findViewById(R.id.card4);
+        buttonclicked.setEnabled(false);
         int num = buttonclicked.get;
         numclicked(num);
     }
@@ -139,7 +143,32 @@ public class MainActivity extends AppCompatActivity {
             return a + b;
         } else if (op == "-") {
             return a - b;
+        } else if (op == "*") {
+            return a * b;
+        } else {
+            return a / b;
         }
     }
+
+    public void clear(View view) {
+        numholder.clear();
+        mathholder.clear();
+        ImageButton buttonclicked1 = (ImageButton) findViewById(R.id.card1);
+        ImageButton buttonclicked2 = (ImageButton) findViewById(R.id.card2);
+        ImageButton buttonclicked3 = (ImageButton) findViewById(R.id.card3);
+        ImageButton buttonclicked4 = (ImageButton) findViewById(R.id.card4);
+        buttonclicked1.setEnabled(true);
+        buttonclicked2.setEnabled(true);
+        buttonclicked3.setEnabled(true);
+        buttonclicked4.setEnabled(true);
+    }
+
+    public void reset(View view) {
+
+    }
+
+
+
+
 
 }
