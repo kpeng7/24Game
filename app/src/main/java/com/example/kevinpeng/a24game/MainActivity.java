@@ -30,7 +30,7 @@ import java.util.PriorityQueue;
 
 public class MainActivity extends AppCompatActivity {
 
-    public PriorityQueue<String> numholder = new PriorityQueue<>();
+    public PriorityQueue<Integer> numholder = new PriorityQueue<>();
     public PriorityQueue<String> mathholder = new PriorityQueue<>();
 
     @Override
@@ -40,8 +40,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void card1clicked(View view) {
-        ImageButton buttonclicked = (Image)
-        String num = "" + buttonclicked.getText();
-        holder.push(num);
+        ImageButton buttonclicked = (ImageButton) findViewById(R.id.card1);
+        int num = buttonclicked.get;
+        numholder.add(num);
+        calculate();
+
+    }
+
+    public String calculate() {
+        if (numholder.size() == 4 && mathholder.size() == 3) {
+
+        }
     }
 }
