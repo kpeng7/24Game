@@ -43,13 +43,39 @@ public class MainActivity extends AppCompatActivity {
         ImageButton buttonclicked = (ImageButton) findViewById(R.id.card1);
         int num = buttonclicked.get;
         numholder.add(num);
-        calculate();
-
+        clicked();
     }
 
-    public String calculate() {
-        if (numholder.size() == 4 && mathholder.size() == 3) {
+    public void clicked() {
+        int ans = calculate();
+        if (ans == 24) {
 
         }
     }
+
+    public int calculate() {
+        int value = 0;
+        if (numholder.size() == 4 && mathholder.size() == 3) {
+            int first = numholder.poll();
+            int second = numholder.poll();
+            String firstop = mathholder.poll();
+            value = operation(firstop, first, second);
+            int third = numholder.poll();
+            String secondop = mathholder.poll();
+            value = operation(secondop, value, third);
+            int fourth = numholder.poll();
+            String thirdop = mathholder.poll();
+            value = operation(thirdop, value, fourth);
+        }
+        return value;
+    }
+
+    public int operation(String op, int a, int b) {
+        if (op == "+") {
+            return a + b;
+        } else if (op == "-") {
+            return a - b;
+        }
+    }
+
 }
