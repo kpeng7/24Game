@@ -40,20 +40,20 @@
         "source": "/Users/JackYe/AndroidStudioProjects/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/JackYe/AndroidStudioProjects/24Game/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
-        "source": "/Users/JackYe/AndroidStudioProjects/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_tint_switch_track.xml"
-    },
-    {
         "merged": "/Users/kevinpeng/Documents/24Game/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
         "source": "/Users/kevinpeng/Documents/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
-        "source": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_btn_colored_text_material.xml"
+        "merged": "/Users/JackYe/AndroidStudioProjects/24Game/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/JackYe/AndroidStudioProjects/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_tint_switch_track.xml"
     },
     {
         "merged": "/Users/kevinpeng/Documents/24Game/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
         "source": "/Users/kevinpeng/Documents/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_btn_colored_text_material.xml"
     },
     {
         "merged": "/Users/JackYe/AndroidStudioProjects/24Game/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
@@ -72,12 +72,12 @@
         "source": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "/Users/kevinpeng/Documents/24Game/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
         "source": "/Users/kevinpeng/Documents/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_primary_text_material_dark.xml"
     },
     {
         "merged": "/Users/JackYe/AndroidStudioProjects/24Game/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",

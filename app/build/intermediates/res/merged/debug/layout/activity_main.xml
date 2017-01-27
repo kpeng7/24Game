@@ -57,14 +57,85 @@
         android:layout_toRightOf="@+id/card3"
         android:layout_marginLeft="50dp"
         android:background="@null"
-        android:onClick="card4clicked"/>
-    />
+        android:onClick="card4clicked" />
     <Button
         android:layout_width="40dp"
         android:layout_height="45dp"
         android:textStyle="bold"
         android:textSize="20dp"
         android:text="+"
+        android:id="@+id/plus"
+        android:layout_below="@+id/card3"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="20dp"
+        android:onClick="plusclicked"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="-"
+        android:id="@+id/minus"
+        android:layout_alignTop="@+id/plus"
+        android:layout_toRightOf="@+id/plus"
+        android:layout_marginRight="20dp"
+        android:onClick="minusclicked"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="*"
+        android:id="@+id/multiply"
+        android:layout_alignTop="@+id/minus"
+        android:layout_toRightOf="@+id/minus"
+        android:layout_marginRight="20dp"
         />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="/"
+        android:layout_alignTop="@+id/multiply"
+        android:layout_toRightOf="@+id/multiply"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sssss"
+        android:id="@+id/winmessage"
+        android:textSize="100dp"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/card3"
+        android:layout_alignStart="@+id/card3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:onClick="clear"
+        android:textSize="20dp"
+        android:id="@+id/button"
+        android:layout_below="@+id/plus"
+        android:layout_toLeftOf="@+id/card4"
+        android:layout_toStartOf="@+id/card4"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Give Up"
+        android:textSize="20dp"
+        android:onClick="reset"
+        android:layout_below="@+id/multiply"
+        android:layout_alignRight="@+id/winmessage"
+        android:layout_alignEnd="@+id/winmessage"
+        android:id="@+id/button2" />
 
 </RelativeLayout>

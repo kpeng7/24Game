@@ -73,12 +73,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         addAllCards();
         startGame();
     }
 
     private void startGame() {
-        int[] cards = new int[4];
         HashSet<Integer> randomCards = new HashSet<Integer>();
         Random rand = new Random();
         while (randomCards.size() < 4) {
@@ -97,15 +97,15 @@ public class MainActivity extends AppCompatActivity {
         String url = "drawable/" + cards[card1];
         int imageKey = getResources().getIdentifier(url, "drawable", getPackageName());
         firstCard.setImageResource(imageKey);
-        ImageButton secondCard = (ImageButton) findViewById(R.id.card1);
+        ImageButton secondCard = (ImageButton) findViewById(R.id.card2);
         url = "drawable/" + cards[card2];
         imageKey = getResources().getIdentifier(url, "drawable", getPackageName());
         secondCard.setImageResource(imageKey);
-        ImageButton thirdCard = (ImageButton) findViewById(R.id.card1);
+        ImageButton thirdCard = (ImageButton) findViewById(R.id.card3);
         url = "drawable/" + cards[card1];
         imageKey = getResources().getIdentifier(url, "drawable", getPackageName());
         thirdCard.setImageResource(imageKey);
-        ImageButton fourthCard = (ImageButton) findViewById(R.id.card1);
+        ImageButton fourthCard = (ImageButton) findViewById(R.id.card4);
         url = "drawable/" + cards[card1];
         imageKey = getResources().getIdentifier(url, "drawable", getPackageName());
         fourthCard.setImageResource(imageKey);

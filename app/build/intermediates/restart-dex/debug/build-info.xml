@@ -5,27 +5,34 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="29133145831010"
+    timestamp="3063532114927"
     token="-2522009161916649661"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="315" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="80" />
+        duration="0" />
     <task
         name="verifier"
-        duration="29" />
+        duration="0" />
 
     <artifact
-        location="/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/kevinpeng/Documents/24Game/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
+    <build
+        timestamp="2984202969903"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
     <build
         timestamp="29133145831010"
         verifier="FULL_BUILD_REQUESTED" >

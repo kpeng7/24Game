@@ -1,7 +1,7 @@
-#Fri Jan 27 13:26:04 EST 2017
-base.0=/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_037a70d0463b42d034719854ecb6f8dd43927a50
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8e24062c12a5d0cd965d8ea9feeab487b287ae4c/classes.dex
-base.1=/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8e24062c12a5d0cd965d8ea9feeab487b287ae4c
-file.0=/Users/kevinpeng/Documents/JHU Intersession 2017/Android/24Game/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_037a70d0463b42d034719854ecb6f8dd43927a50/classes.dex
+#Fri Jan 27 15:23:09 EST 2017
+base.0=/Users/kevinpeng/Documents/24Game/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_38bfa6a3200c3579f7fda4eecbd4e7ebca51939e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/kevinpeng/Documents/24Game/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bae2d4658f86776fbaf94ec84c0173e41d4551cf/classes.dex
+base.1=/Users/kevinpeng/Documents/24Game/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bae2d4658f86776fbaf94ec84c0173e41d4551cf
+file.0=/Users/kevinpeng/Documents/24Game/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_38bfa6a3200c3579f7fda4eecbd4e7ebca51939e/classes.dex
