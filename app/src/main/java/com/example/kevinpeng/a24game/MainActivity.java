@@ -25,6 +25,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;
 import java.util.PriorityQueue;
+import java.util.HashSet;
+import java.util.Random;
 
 import java.util.PriorityQueue;
 
@@ -33,10 +35,14 @@ public class MainActivity extends AppCompatActivity {
     public PriorityQueue<Integer> numholder = new PriorityQueue<>();
     public PriorityQueue<String> mathholder = new PriorityQueue<>();
     private String[] cards = new String[52];
+    private int card1;
+    private int card2;
+    private int card3;
+    private int card4;
 
     private void addAllCards() {
-        String str = "";
         for (int i = 0; i < 52; i++) {
+            String str = "";
             switch(i % 13) {
                 case 0: str += "ace_of_";
                 case 1: str += "two_of_";
@@ -50,43 +56,86 @@ public class MainActivity extends AppCompatActivity {
                 case 9: str += "ten_of_";
                 case 10: str += "jack_of_";
                 case 11: str += "queen_of_";
-                case 12:
+                case 12: str += "king_of_";
             }
+            switch(i / 52) {
+                case 0: str += "clubs.png";
+                case 1: str += "diamonds.png";
+                case 2: str += "hearts.png";
+                case 3: str += "spades.png";
+            }
+            cards[i] = str;
         }
+
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        addAllCards();
+        startGame();
+    }
 
+    private void startGame() {
+        int[] cards = new int[4];
+        HashSet<Integer> randomCards = new HashSet<Integer>();
+        Random rand = new Random();
+        while (randomCards.size() < 4) {
+            randomCards.add(rand.nextInt(52));
+        }
+        int count = 0;
+        for (Integer i: randomCards) {
+            switch(count) {
+                case 0: card1 = i;
+                case 1: card2 = i;
+                case 2: card3 = i;
+                case 3: card4 = i;
+            }
+        }
+        ImageButton firstCard = (ImageButton) findViewById(R.id.card1);
+        String url = "drawable/" + cards[card1];
+        int imageKey = getResources().getIdentifier(url, "drawable", getPackageName());
+        firstCard.setImageResource(imageKey);
+        ImageButton secondCard = (ImageButton) findViewById(R.id.card1);
+        url = "drawable/" + cards[card2];
+        imageKey = getResources().getIdentifier(url, "drawable", getPackageName());
+        secondCard.setImageResource(imageKey);
+        ImageButton thirdCard = (ImageButton) findViewById(R.id.card1);
+        url = "drawable/" + cards[card1];
+        imageKey = getResources().getIdentifier(url, "drawable", getPackageName());
+        thirdCard.setImageResource(imageKey);
+        ImageButton fourthCard = (ImageButton) findViewById(R.id.card1);
+        url = "drawable/" + cards[card1];
+        imageKey = getResources().getIdentifier(url, "drawable", getPackageName());
+        fourthCard.setImageResource(imageKey);
     }
 
     public void card1clicked(View view) {
         ImageButton buttonclicked = (ImageButton) findViewById(R.id.card1);
         buttonclicked.setEnabled(false);
-        int num = buttonclicked.get;
+        int num = card1 % 13 + 1;
         numclicked(num);
     }
 
     public void card2clicked(View view) {
         ImageButton buttonclicked = (ImageButton) findViewById(R.id.card2);
         buttonclicked.setEnabled(false);
-        int num = buttonclicked.get;
+        int num = card2 % 13 + 1;
         numclicked(num);
     }
 
     public void card3clicked(View view) {
         ImageButton buttonclicked = (ImageButton) findViewById(R.id.card3);
         buttonclicked.setEnabled(false);
-        int num = buttonclicked.get;
+        int num = card3 % 13 + 1;
         numclicked(num);
     }
 
     public void card4clicked(View view) {
         ImageButton buttonclicked = (ImageButton) findViewById(R.id.card4);
         buttonclicked.setEnabled(false);
-        int num = buttonclicked.get;
+        int num = card4 % 13 + 1;
         numclicked(num);
     }
 
