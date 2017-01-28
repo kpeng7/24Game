@@ -1917,7 +1917,7 @@ containing a value of this type.
         public static final int always=0x7f0b001d;
         public static final int beginning=0x7f0b001a;
         public static final int bottom=0x7f0b0022;
-        public static final int button=0x7f0b005f;
+        public static final int button=0x7f0b005e;
         public static final int button2=0x7f0b0060;
         public static final int buttonPanel=0x7f0b002e;
         public static final int cancel_action=0x7f0b0065;
@@ -2007,7 +2007,7 @@ containing a value of this type.
         public static final int topPanel=0x7f0b0039;
         public static final int up=0x7f0b0008;
         public static final int useLogo=0x7f0b0012;
-        public static final int winmessage=0x7f0b005e;
+        public static final int winmessage=0x7f0b005f;
         public static final int withText=0x7f0b0021;
         public static final int wrap_content=0x7f0b0019;
     }
